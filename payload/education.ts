@@ -5,16 +5,16 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'University of Open Source',
-      subTitle: 'PhD in System Engineering (Honorary)',
-      startedAt: '1991-03',
-      // endedAt: '2010-02',
+      title: '예담직업전문학교',
+      subTitle: '여성 IT 인재 양성과정 수료',
+      startedAt: '2022-11',
+      endedAt: '2022-04',
     },
     {
-      title: 'Antarctica High School',
-      subTitle: 'Graduated',
-      startedAt: '1989-03',
-      endedAt: '1991-02',
+      title: '경북대학교',
+      subTitle: '영어영문학과 학사 졸업',
+      startedAt: '2020-02',
+      // endedAt: '2020-02',
     },
   ],
 };

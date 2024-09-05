@@ -1,177 +1,197 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const programmingLanguages: ISkill.Skill = {
-  category: 'Programming Languages',
+  category: '프로그래밍 언어',
   items: [
     {
-      title: 'C',
-      level: 3,
+      title: 'Java',
     },
     {
-      title: 'Shell Scripting',
-      level: 3,
+      title: 'javascript',
     },
     {
-      title: 'Python',
-      level: 3,
+      title: 'HTML/CSS',
     },
     {
-      title: 'Perl',
-      level: 2,
+      title: 'SQL',
     },
     {
-      title: 'Golang',
-      level: 2,
+      title: 'PL/SQL',
     },
     {
-      title: 'Rust',
-      level: 1,
+      title: 'XML',
     },
   ],
 };
 
 const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+  category: '프레임워크 & 라이브러리',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
+      title: '전자정부프레임워크',
     },
     {
-      title: 'GNU Debugger',
-      level: 3,
+      title: 'Spring',
     },
     {
-      title: 'Memory Management',
-      level: 2,
+      title: 'Spring Boot',
     },
     {
-      title: 'System Call Interface',
-      level: 2,
+      title: 'Vue.js',
+    },
+    {
+      title: 'Axios',
+    },
+    {
+      title: 'JQuery',
+    },
+    {
+      title: 'JSP',
+    },
+    {
+      title: 'Thymeleaf',
     },
   ],
 };
 
 const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+  category: '데이터베이스 & 인프라',
   items: [
     {
-      title: 'Docker',
-      level: 3,
+      title: 'MariaDB',
     },
     {
-      title: 'KVM',
-      level: 3,
+      title: 'MySQL',
     },
     {
-      title: 'Xen',
-      level: 2,
+      title: 'Oracle',
     },
     {
-      title: 'VirtualBox',
-      level: 2,
+      title: 'Tibero',
     },
     {
-      title: 'VMware ESXi',
-      level: 1,
+      title: 'MongoDB',
+    },
+    {
+      title: 'AWS EC2',
+    },
+    {
+      title: 'NCP',
+    },
+    {
+      title: 'OCI',
+    },
+    {
+      title: 'Apache',
+    },
+    {
+      title: 'Tomcat',
+    },
+    {
+      title: 'Jeus',
+    },
+    {
+      title: 'Mongo Atlas',
+    },
+    {
+      title: 'Redis Cloud',
     },
   ],
 };
 
 const automation: ISkill.Skill = {
-  category: 'Automation',
+  category: '도구',
   items: [
     {
-      title: 'Ansible',
-      level: 3,
+      title: 'Eclipse',
     },
     {
-      title: 'Puppet',
-      level: 3,
+      title: 'InteliJ',
     },
     {
-      title: 'Chef',
-      level: 2,
+      title: 'VS Code',
+    },
+    {
+      title: 'sql developer',
+    },
+    {
+      title: 'SQL Gate',
+    },
+    {
+      title: 'Studio 3T',
     },
     {
       title: 'Jenkins',
-      level: 2,
     },
     {
-      title: 'CI/CD Pipelines',
-      level: 1,
+      title: 'Koyeb',
     },
     {
-      title: 'Infrastructure as Code',
-      level: 1,
+      title: 'PuTTY',
+    },
+    {
+      title: 'Docker',
+    },
+    {
+      title: 'Maven',
+    },
+    {
+      title: 'npm',
+    },
+    {
+      title: 'Git',
+    },
+    {
+      title: 'Github',
+    },
+    {
+      title: 'SVN',
     },
   ],
 };
 
 const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
+  category: '기타 보유 기술 및 경험',
   items: [
     {
-      title: 'iptables',
-      level: 3,
+      title: 'Linux',
     },
     {
-      title: 'OpenSSH',
-      level: 3,
+      title: 'Spring Security',
     },
     {
-      title: 'OpenSSL',
-      level: 2,
+      title: 'JPA',
     },
     {
-      title: 'NACLs',
-      level: 2,
+      title: 'FCM',
     },
     {
-      title: 'VPN Technologies',
-      level: 2,
+      title: 'RestAPI',
     },
     {
-      title: 'Intrusion Detection',
-      level: 1,
-    },
-  ],
-};
-
-const misc: ISkill.Skill = {
-  category: 'Misc',
-  items: [
-    {
-      title: 'Coffee Brewing',
+      title: 'Websocket',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'Whatap',
     },
     {
-      title: 'Table Tennis',
+      title: 'Google Analytics',
     },
     {
-      title: 'Guitar Playing',
+      title: 'Netfunnel',
     },
     {
-      title: 'Joke Telling',
+      title: 'JMeter',
     },
     {
-      title: 'Duct Tape Crafting',
+      title: 'CODE-RAY',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    misc,
-  ],
+  skills: [programmingLanguages, kernelDevelopment, virtualization, automation, networkSecurity],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

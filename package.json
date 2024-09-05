@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2024-07-22",
+  "lastestUpdatedAt": "2024-09-04",
   "version": "1.2.4",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "https://H2suLee.github.io/resume",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/H2suLee/resume.git"
   },
   "keywords": [
     "resume",

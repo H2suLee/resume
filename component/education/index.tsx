@@ -22,7 +22,7 @@ export const Education = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="EDUCATION">
+    <CommonSection title="교육사항">
       <EducationRow payload={payload} />
     </CommonSection>
   );
@@ -40,19 +40,23 @@ function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
 
 function serialize(item: Item): IRow.Payload {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
-  const [startedAt] = [item.startedAt].map((at) =>
-    DateTime.fromFormat(at, DATE_FORMAT.YYYY_LL).toFormat(DATE_FORMAT.YYYY_DOT_LL),
+  const startedAt = DateTime.fromFormat(item.startedAt, DATE_FORMAT.YYYY_LL).toFormat(
+    DATE_FORMAT.YYYY_DOT_LL,
   );
-
-  const endedAt =
-    item.endedAt === undefined
-      ? ' '
-      : [item.endedAt].map((at) =>
-          DateTime.fromFormat(at, DATE_FORMAT.YYYY_LL).toFormat(DATE_FORMAT.YYYY_DOT_LL),
-        );
+  const title = (() => {
+    if (item.endedAt) {
+      const endedAt = DateTime.fromFormat(item.endedAt, DATE_FORMAT.YYYY_LL).toFormat(
+        DATE_FORMAT.YYYY_DOT_LL,
+      );
+      return `${startedAt} ~ ${endedAt}`;
+    }
+    return startedAt;
+  })();
 
   return {
-    left: { title: `${startedAt} ~ ${endedAt}` },
+    left: {
+      title,
+    },
     right: {
       ...item,
     },

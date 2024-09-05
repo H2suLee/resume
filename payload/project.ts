@@ -4,38 +4,137 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      where: 'Linux Foundation',
+      title: '한국사학진흥재단 ERP 고도화(2차, 3차)',
+      startedAt: '2024-01',
+      // endedAt: '2024-11',
+      where:
+        '예산회계, 전자결재, 통합포털이 포함된 erp 시스템으로 통합포털(인사관리/권한관리/게시판) 담당',
       descriptions: [
         {
-          content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+          content: 'otp 2차인증 구현',
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
-          ],
+            'NCP 클라우드 모니터링 api 를 이용하여 네트워크 트래픽, LB, Server 사용량에 대한 모니터링 기능 구현',
+        },
+        {
+          content: 'FCM 구현',
+        },
+        {
+          content: '코드레이 툴을 이용하여 소스 보안 취약점 개선',
         },
       ],
     },
     {
-      title: 'Global Linux Bootcamp',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
-      where: 'Open Source Community',
+      title: '한라산 탐방예약시스템 유지보수',
+      startedAt: '2023-03',
+      // endedAt: '2024-11',
+      where: '한라산 백록담 탐방예약/등정인증 관리 시스템',
       descriptions: [
         {
-          content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+          content: '매월초 와탭을 활용하여 탐방예약 실시간 모니터링',
         },
         {
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+            '카카오 알림톡을 도입하여 sms ->알림톡 전부 대체함. 이에 따른 알림발송, 로그, 템플릿 관리 등 연계 기능 개발, 매뉴얼 작성',
+        },
+        {
+          content: '넷퍼넬 스킨 적용 및 우회 차단 로직 구현',
+        },
+        {
+          content: '웹서버, 자바 코드 취약점 대응',
+        },
+        {
+          content:
+            '1월 1일 탐방 예약에 최대 2만 명의 활성 사용자가 몰리는 다중 트래픽 사이트 관리 경험. 다중 접속자 제어 솔루션인 넷퍼넬 적극 활용. 주기적으로 부하 테스트를 진행하여 예약 로직을 정리하고 필요시 쿼리 튜닝을 수행함. 메인 DB를 연도별로 분리, 조회 소요시간을 줄여 처리속도 개선',
+        },
+        {
+          content: '게이트, 무인주차시스템, CCTV, 모바일 앱 등 여러 분야의 업체와 연계하여 협력함',
+        },
+      ],
+    },
+    {
+      title: '지리산 천왕봉 등정 인증 시스템 구축/유지보수',
+      startedAt: '2023-07',
+      // endedAt: '2024-11',
+      where:
+        '웹사이트에서 사용자가 등정인증을 신청후 승인받으면 탐방사무소 키오스크에서 신청 건에 대해 결제하고 인증서를 출력함',
+      descriptions: [
+        {
+          content: '국립공원공단 회원DB 연계 및 SSO 적용',
+        },
+        {
+          content: '관리자 인증정보(GPS, 반경, 인증서가격)관리, 웹포스 구현',
+        },
+        {
+          content: '키오스크 결제 모듈 연계, 출력 구현',
+        },
+        {
+          content:
+            '결제 모듈, 프린터 모듈을 구현하는 과정에서 Websocket 통신, activeX 통신 등 다양한 데이터 통신은 물론 ocx, dll 파일 형식에 대해서도 습득',
+        },
+      ],
+    },
+    {
+      title: 'DIP SW융합제품 개발',
+      startedAt: '2023-07',
+      endedAt: '2023-11',
+      where:
+        '대구디지털혁신진흥원의 과제사업으로, 웨어러블 기기에서 측정한 생체 데이터(심박수, 산소포화도)를 분석하여 신체 상태를 구분하고, 위험 시 구급대원 및 비상연락망에 신호를 보내는 시스템',
+      descriptions: [
+        {
+          content:
+            '앱연계로 진행하여, API 관리 역량과 앱개발과의 협업 역량 증진(스웨거, ARC, 노션)',
+        },
+        {
+          content:
+            '공공데이터와 연계하여 전국의 지진대피소, 무더위쉼터, 안전비상벨 등 장소정보를 제공받거나 갱신함. 또한 주소GPS변환 API(카카오), UTM 위경도좌표계변환 API(Proj4J) 를 도입하여 주소 데이터 형식을 통일함',
+        },
+        {
+          content: 'jmeter 를 이용하여 성능 테스트 진행',
+        },
+      ],
+    },
+    {
+      title: 'SCMS V2.0',
+      startedAt: '2023-04',
+      endedAt: '2023-06',
+      where: '신라시스템 자체 CMS 프레임워크 고도화',
+      descriptions: [
+        {
+          content:
+            'Spring + jsp 기반의 프로젝트를 Spring boot + JPA + Vue.js 기반의 프로젝트로 고도화',
+        },
+        {
+          content:
+            '백엔드와 프론트엔드를 분리하는 구조에 흥미를 느꼈고, 처음 접해본 JPA, Vue.js 에 대해서도 학습할 수 있는 기회가 되었음',
+        },
+      ],
+    },
+    {
+      title: '경북대학교 인공지능 산학플랫폼 구축/유지보수',
+      startedAt: '2022-11',
+      endedAt: '2023-10',
+      where:
+        '학부생들이 창의적인 아이디어로 프로젝트 팀을 구성해 지원을 신청하면, 산업체와 대학이 이를 승인하여 프로젝트 수행을 돕도록 지원하는 플랫폼으로, AI 전문 인력을 양성하는 목적임',
+      descriptions: [
+        {
+          content:
+            '회원유형별(학생/기업/대학교수/대학원생) 프로젝트 신청/제한 관리, 프로젝트 활동 및 보고서 관리',
+        },
+        {
+          content: '관리자 프로젝트 승인/완료 관리',
+        },
+        {
+          content: 'SMTP 적용',
+        },
+        {
+          content:
+            '입사 후 처음 맡은 프로젝트에서 기능 구현에 집중해 중복되고 어려운 코드를 작성했으나, 유지보수성과 가독성의 중요성을 깨닫고 클린 코드 작성법을 학습하며, 리팩토링을 통해 코드의 품질을 개선함',
+        },
+        {
+          content:
+            '프로젝트 기간, 참여자, 기업매칭여부, 승인 여부 등 프로젝트의 상태에 따라 사용 가능한 기능과 제한 사항이 달라지는 점을 고려해 데이터의 일관성과 무결성을 유지하고 프로젝트의 완성도를 높이도록 노력함. 데이터간 모순에 대해 깊게 고민하였던 이 경험은 추후 타프로젝트에서도 큰 도움이 됨',
         },
       ],
     },

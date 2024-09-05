@@ -20,7 +20,7 @@ module.exports = withImages({
         return '';
       }
     }
-    return '';
+    return '.';
   })(),
 });
 // withCSS({
