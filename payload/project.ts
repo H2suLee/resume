@@ -11,9 +11,6 @@ const project: IProject.Payload = {
         '예산회계, 전자결재, 통합포털이 포함된 erp 시스템으로 통합포털(시스템관리/권한관리/게시판) 담당',
       descriptions: [
         {
-          content: 'otp 2차인증 구현',
-        },
-        {
           content:
             'NCP 클라우드 모니터링 api 를 이용하여 네트워크 트래픽, LB, Server 사용량에 대한 모니터링 기능 구현',
         },
