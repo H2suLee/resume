@@ -7,8 +7,8 @@ const education: IEducation.Payload = {
     {
       title: '예담직업전문학교',
       subTitle: '여성 IT 인재 양성과정 수료',
-      startedAt: '2022-11',
-      endedAt: '2022-04',
+      startedAt: '2022-04',
+      endedAt: '2022-11',
     },
     {
       title: '경북대학교',

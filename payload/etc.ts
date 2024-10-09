@@ -5,6 +5,11 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'TOEIC 950',
+      subTitle: 'YBM 한국 TOEIC 위원회',
+      startedAt: '2024-09',
+    },
+    {
       title: '정보처리기사',
       subTitle: '한국산업인력공단',
       startedAt: '2022-09',
