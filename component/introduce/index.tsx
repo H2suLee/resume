@@ -44,9 +44,9 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
               )} (D+${latestUpdatedByNow})`}
             </Badge>
           </p>
-          <p className="text-right" style={Style.sign}>
+          {/* <p className="text-right" style={Style.sign}>
             {payload.sign}
-          </p>
+          </p> */}
         </Col>
       </Row>
     </div>
