@@ -85,7 +85,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '공공데이터와 연계하여 전국의 지진대피소, 무더위쉼터, 안전비상벨 등 장소정보를 제공받거나 갱신함. 또한 주소GPS변환 API(카카오), UTM 위경도좌표계변환 API(Proj4J) 를 도입하여 주소 데이터 형식을 통일함',
+            '공공데이터와 연계하여 전국의 장소정보를 제공받거나 갱신함. 또한 주소GPS변환 API(카카오), UTM 위경도좌표계변환 API(Proj4J) 를 도입하여 주소 데이터 형식을 통일함',
         },
         {
           content: 'jmeter 를 이용하여 성능 테스트 진행',
@@ -118,9 +118,6 @@ const project: IProject.Payload = {
         {
           content:
             '회원유형별(학생/기업/대학교수/대학원생) 프로젝트 신청/제한 관리, 프로젝트 활동 및 보고서 관리',
-        },
-        {
-          content: '관리자 프로젝트 승인/완료 관리',
         },
         {
           content: 'SMTP 적용',
