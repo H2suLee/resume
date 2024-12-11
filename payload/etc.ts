@@ -5,6 +5,16 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'SQL개발자(SQLD자격)',
+      subTitle: '한국데이터베이스진흥센터',
+      startedAt: '2024-11',
+    },
+    {
+      title: '2종보통운전면허',
+      subTitle: '경찰청',
+      startedAt: '2024-11',
+    },
+    {
       title: 'TOEIC 950',
       subTitle: 'YBM 한국 TOEIC 위원회',
       startedAt: '2024-09',
