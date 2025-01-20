@@ -4,9 +4,21 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '한국사학진흥재단 ERP 운영(파견)',
+      startedAt: '2025-01',
+      // endedAt: '2024-11',
+      where: '',
+
+      descriptions: [
+        {
+          content: 'to be updated',
+        },
+      ],
+    },
+    {
       title: '한국사학진흥재단 ERP 고도화(2차, 3차)',
       startedAt: '2024-01',
-      // endedAt: '2024-11',
+      endedAt: '2024-12',
       where:
         '예산회계, 전자결재, 통합포털이 포함된 erp 시스템으로 통합포털(시스템관리/권한관리/게시판/로그/모니터링/통계) 및 사용자지원 포털 담당',
       descriptions: [
