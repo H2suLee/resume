@@ -15,12 +15,12 @@ const programmingLanguages: ISkill.Skill = {
     {
       title: 'SQL',
     },
-    {
+    /*    {
       title: 'PL/SQL',
     },
     {
       title: 'XML',
-    },
+    },*/
   ],
 };
 
@@ -28,28 +28,16 @@ const kernelDevelopment: ISkill.Skill = {
   category: '프레임워크 & 라이브러리',
   items: [
     {
-      title: '전자정부프레임워크',
-    },
-    {
-      title: 'Spring',
-    },
-    {
-      title: 'Spring Boot',
+      title: 'Spring / Spring Boot',
     },
     {
       title: 'Vue.js',
-    },
-    {
-      title: 'Axios',
     },
     {
       title: 'JQuery',
     },
     {
       title: 'JSP',
-    },
-    {
-      title: 'Thymeleaf',
     },
   ],
 };
@@ -58,19 +46,16 @@ const virtualization: ISkill.Skill = {
   category: '데이터베이스 & 인프라',
   items: [
     {
-      title: 'MariaDB',
-    },
-    {
       title: 'MySQL',
     },
     {
       title: 'Oracle',
     },
     {
-      title: 'Tibero',
+      title: 'MongoDB',
     },
     {
-      title: 'MongoDB',
+      title: 'Redis',
     },
     {
       title: 'AWS EC2',
@@ -79,22 +64,13 @@ const virtualization: ISkill.Skill = {
       title: 'NCP',
     },
     {
-      title: 'OCI',
+      title: 'Nginx',
     },
     {
       title: 'Apache',
     },
     {
       title: 'Tomcat',
-    },
-    {
-      title: 'Jeus',
-    },
-    {
-      title: 'Mongo Atlas',
-    },
-    {
-      title: 'Redis Cloud',
     },
   ],
 };
@@ -103,31 +79,7 @@ const automation: ISkill.Skill = {
   category: '도구',
   items: [
     {
-      title: 'Eclipse',
-    },
-    {
-      title: 'InteliJ',
-    },
-    {
-      title: 'VS Code',
-    },
-    {
-      title: 'sql developer',
-    },
-    {
-      title: 'SQL Gate',
-    },
-    {
-      title: 'Studio 3T',
-    },
-    {
       title: 'Jenkins',
-    },
-    {
-      title: 'Koyeb',
-    },
-    {
-      title: 'PuTTY',
     },
     {
       title: 'Docker',
@@ -145,7 +97,7 @@ const automation: ISkill.Skill = {
       title: 'Github',
     },
     {
-      title: 'SVN',
+      title: 'Github Action',
     },
   ],
 };
@@ -163,7 +115,7 @@ const networkSecurity: ISkill.Skill = {
       title: 'JPA',
     },
     {
-      title: 'FCM',
+      title: 'Firebase',
     },
     {
       title: 'RestAPI',
@@ -172,19 +124,7 @@ const networkSecurity: ISkill.Skill = {
       title: 'Websocket',
     },
     {
-      title: 'Whatap',
-    },
-    {
-      title: 'Google Analytics',
-    },
-    {
-      title: 'Netfunnel',
-    },
-    {
       title: 'JMeter',
-    },
-    {
-      title: 'CODE-RAY',
     },
   ],
 };
@@ -192,7 +132,7 @@ const networkSecurity: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [programmingLanguages, kernelDevelopment, virtualization, automation, networkSecurity],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
 export default skill;
