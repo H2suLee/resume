@@ -20,7 +20,7 @@ const programmingLanguages: ISkill.Skill = {
     },
     {
       title: 'XML',
-    },*/
+    }, */
   ],
 };
 
