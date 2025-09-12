@@ -12,7 +12,7 @@ const education: IEducation.Payload = {
     },
     {
       title: '경북대학교',
-      subTitle: '영어영문학과 학사 졸업',
+      subTitle: '영어영문학과 학사 졸업 (4.44/4.5)',
       startedAt: '2020-02',
       // endedAt: '2020-02',
     },

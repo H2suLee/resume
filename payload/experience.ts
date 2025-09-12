@@ -22,6 +22,7 @@ const experience: IExperience.Payload = {
             'exBuilder',
             'clipReport',
             'BiMatrix',
+            'Firebase',
             'Git',
             'Rocky Linux',
           ],
