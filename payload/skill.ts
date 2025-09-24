@@ -57,15 +57,15 @@ const virtualization: ISkill.Skill = {
     {
       title: 'Redis',
     },
-    {
-      title: 'AWS EC2',
-    },
+    // {
+    //   title: 'AWS EC2',
+    // },
     {
       title: 'NCP',
     },
-    {
-      title: 'Nginx',
-    },
+    // {
+    //   title: 'Nginx',
+    // },
     {
       title: 'Apache',
     },
@@ -96,9 +96,9 @@ const automation: ISkill.Skill = {
     {
       title: 'Github',
     },
-    {
-      title: 'Github Action',
-    },
+    // {
+    //   title: 'Github Action',
+    // },
   ],
 };
 

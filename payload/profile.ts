@@ -1,7 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
-import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faBookmark } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/_pic1.jpg';
 
@@ -29,8 +28,9 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      link: '대구광역시 수성구 노변공원로 34',
-      icon: faBell,
+      title: 'https://h2sudev.notion.site',
+      link: 'https://h2sudev.notion.site/26cb7bbe5f0c807ca2e6f0314b0c14fb',
+      icon: faBookmark,
     },
   ],
   notice: {
