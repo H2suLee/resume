@@ -11,8 +11,15 @@ const project: IProject.Payload = {
 
       descriptions: [
         {
-          content:
-            '관리자시스템, 통합포털, 경영정보, 각 시스템 연계 기능 관련 민원 대응 신규 요구사항 반영',
+          content: '로그인, 관리자시스템, 통합포털, 경영정보 관련 민원 대응 신규 요구사항 반영',
+        },
+        {
+          content: 'jwt 기반 각 시스템 연계 기능 작업 지원',
+          descriptions: [
+            { content: 'SSO 로그인 지원' },
+            { content: '행복기숙사 <> 인사급여 연계 작업' },
+            { content: '4차 고도화 사업 연계 작업' },
+          ],
         },
       ],
     },

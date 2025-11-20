@@ -81,7 +81,7 @@ const virtualization: ISkill.Skill = {
 };
 
 const automation: ISkill.Skill = {
-  category: '도구 / Devops',
+  category: '도구 & Devops',
   items: [
     /*
     {
@@ -96,9 +96,6 @@ const automation: ISkill.Skill = {
     },
     {
       title: 'Git',
-    },
-    {
-      title: 'Github',
     },
     {
       title: 'Github Actions',
@@ -122,19 +119,27 @@ const networkSecurity: ISkill.Skill = {
       title: 'OAuth2',
     },
     {
-      title: 'Grafana',
-    },
-    {
       title: 'JPA',
     },
     {
       title: 'Firebase',
     },
+    /*
     {
       title: 'RestAPI',
-    },
+      },
+      */
     {
       title: 'Websocket',
+    },
+    {
+      title: 'Loki / Promtail',
+    },
+    {
+      title: 'Prometheus',
+    },
+    {
+      title: 'Grafana',
     },
     {
       title: 'JMeter',
