@@ -60,30 +60,34 @@ const virtualization: ISkill.Skill = {
     // {
     //   title: 'AWS EC2',
     // },
+    /*
     {
       title: 'NCP',
     },
-    // {
-    //   title: 'Nginx',
-    // },
+    */
+    {
+      title: 'Nginx',
+    },
     {
       title: 'Apache',
     },
     {
       title: 'Tomcat',
     },
+    {
+      title: 'Linux',
+    },
   ],
 };
 
 const automation: ISkill.Skill = {
-  category: '도구',
+  category: '도구 / Devops',
   items: [
+    /*
     {
       title: 'Jenkins',
     },
-    {
-      title: 'Docker',
-    },
+    */
     {
       title: 'Maven',
     },
@@ -96,9 +100,15 @@ const automation: ISkill.Skill = {
     {
       title: 'Github',
     },
-    // {
-    //   title: 'Github Action',
-    // },
+    {
+      title: 'Github Actions',
+    },
+    {
+      title: 'Docker',
+    },
+    {
+      title: 'GHCR',
+    },
   ],
 };
 
@@ -106,10 +116,13 @@ const networkSecurity: ISkill.Skill = {
   category: '기타 보유 기술 및 경험',
   items: [
     {
-      title: 'Linux',
+      title: 'Spring Security',
     },
     {
-      title: 'Spring Security',
+      title: 'OAuth2',
+    },
+    {
+      title: 'Grafana',
     },
     {
       title: 'JPA',
