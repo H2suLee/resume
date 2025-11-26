@@ -113,7 +113,7 @@ const automation: ISkill.Skill = {
     },
   ],
 };
-
+/*
 const networkSecurity: ISkill.Skill = {
   category: '기타 보유 기술 및 경험',
   items: [
@@ -129,13 +129,13 @@ const networkSecurity: ISkill.Skill = {
     {
       title: 'Firebase',
     },
-    /*
+    
     {
       title: 'RestAPI',
-      },
-      */
-    {
-      title: 'Websocket',
+    },
+    
+   {
+     title: 'Websocket',
     },
     {
       title: 'Loki / Promtail',
@@ -150,8 +150,8 @@ const networkSecurity: ISkill.Skill = {
       title: 'JMeter',
     },
   ],
-};
-
+} 
+*/
 const skill: ISkill.Payload = {
   disable: false,
   skills: [
