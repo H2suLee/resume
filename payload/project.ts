@@ -108,7 +108,7 @@ const project: IProject.Payload = {
     },
 
     {
-      title: 'DIP SW융합제품 개발(과제사업)',
+      title: 'DIP SW 융합제품 개발(과제사업)',
       startedAt: '2023-07',
       endedAt: '2023-11',
       where:
