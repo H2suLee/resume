@@ -27,11 +27,13 @@ const profile: IProfile.Payload = {
       link: 'https://github.com/H2suLee',
       icon: faGithub,
     },
+    /*
     {
       title: 'https://h2sudev.notion.site',
       link: 'https://h2sudev.notion.site/26cb7bbe5f0c807ca2e6f0314b0c14fb',
       icon: faBookmark,
     },
+    */
   ],
   notice: {
     title: '',

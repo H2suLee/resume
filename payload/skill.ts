@@ -7,7 +7,7 @@ const programmingLanguages: ISkill.Skill = {
       title: 'Java',
     },
     {
-      title: 'javascript',
+      title: 'JavaScript',
     },
     {
       title: 'HTML/CSS',
@@ -34,7 +34,7 @@ const kernelDevelopment: ISkill.Skill = {
       title: 'Vue.js',
     },
     {
-      title: 'JQuery',
+      title: 'jQuery',
     },
     {
       title: 'JSP',
@@ -43,7 +43,7 @@ const kernelDevelopment: ISkill.Skill = {
 };
 
 const virtualization: ISkill.Skill = {
-  category: '데이터베이스 & 인프라',
+  category: '데이터베이스',
   items: [
     {
       title: 'MySQL',
@@ -65,46 +65,51 @@ const virtualization: ISkill.Skill = {
       title: 'NCP',
     },
     */
-    {
-      title: 'Nginx',
-    },
-    {
-      title: 'Apache',
-    },
-    {
-      title: 'Tomcat',
-    },
-    {
-      title: 'Linux',
-    },
+    /*
+   {
+    title: 'Nginx',
+  },
+  {
+    title: 'Apache',
+  },
+  {
+    title: 'Tomcat',
+  },
+  {
+    title: 'Linux',
+  },
+  */
   ],
 };
 
 const automation: ISkill.Skill = {
-  category: '도구 & Devops',
+  category: '운영 & 배포',
   items: [
     /*
     {
       title: 'Jenkins',
     },
-    */
     {
       title: 'Maven',
     },
     {
       title: 'npm',
     },
-    {
-      title: 'Git',
+        {
+      title: 'Github Actions',
     },
     {
-      title: 'Github Actions',
+      title: 'GHCR',
+    },
+    */
+    {
+      title: 'Linux',
     },
     {
       title: 'Docker',
     },
     {
-      title: 'GHCR',
+      title: 'Git',
     },
   ],
 };
@@ -149,7 +154,12 @@ const networkSecurity: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programmingLanguages, kernelDevelopment, virtualization, automation, networkSecurity],
+  skills: [
+    programmingLanguages,
+    kernelDevelopment,
+    virtualization,
+    automation /* networkSecurity */,
+  ],
   // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
