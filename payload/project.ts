@@ -95,7 +95,7 @@ const project: IProject.Payload = {
         '웹사이트에서 사용자가 등정인증을 신청후 승인받으면 탐방사무소 키오스크에서 신청 건에 대해 결제하고 인증서를 출력함',
       descriptions: [
         {
-          content: '국립공원공단 회원DB 연계 및 SSO 적용',
+          content: '국립공원공단 회원DB 연계',
         },
         {
           content: '웹포스 (KISPOS), 키오스크 결제 모듈(KIS), 프린트 출력 연계 구현',
