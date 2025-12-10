@@ -82,7 +82,7 @@ const project: IProject.Payload = {
           descriptions: [
             { content: '넷퍼넬을 활용한 접속자 순번 제어와 모니터링' },
             { content: '주기적 DB 리포트 출력하여 필요시 로직 최적화와 튜닝 수행' },
-            { content: '메인 DB 연도별 분리로 조회 속도 개선(먹통 수준 → 5초 향상)' },
+            { content: '메인 테이블 연도별 분리로 조회 속도 개선, 자동화(먹통 수준 → 5초 향상)' },
           ],
         },
       ],

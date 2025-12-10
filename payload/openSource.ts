@@ -4,16 +4,18 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernal',
+      title: '사이드 프로젝트 - TOYCHAT',
       descriptions: [
         {
-          content: 'Regular contributor to kernel patches.',
+          content: '웹소켓을 활용한 실시간 채팅 및 관리 프로그램',
         },
         {
-          content: 'Active member of kernel security audit team.',
+          content: 'https://h2sudev.notion.site',
+          href: 'https://h2sudev.notion.site/TOYCHAT_v1-26cb7bbe5f0c80549ea8cf537adbf654',
         },
       ],
     },
+    /*
     {
       title: 'GNOME',
       descriptions: [
@@ -68,6 +70,7 @@ const openSource: IOpenSource.Payload = {
         },
       ],
     },
+     */
   ],
 };
 
